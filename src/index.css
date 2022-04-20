@@ -90,6 +90,9 @@ body {
   text-align: left;
   margin: 0 auto;
 }
+.fa-icon {
+  margin-right: 5px;
+}
 
 .hero-content .subtitle {
   font-weight: bold;
@@ -100,6 +103,31 @@ body {
 .hero-content .text {
   margin-bottom: 0;
   font-size: 0.9rem;
+}
+
+.input {
+  font-size: 1.3em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border-color: #818a86;
+  color: #91a19a;
+}
+
+.buttons {
+  margin-top: 15px;
+  font-size: 1.3em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border-color: #2527ac;
+  color: #2527ac;
 }
 
 @media (min-width: 920px) {

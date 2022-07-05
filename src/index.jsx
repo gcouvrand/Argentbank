@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Routing from './Routing';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Routing from "./Routing";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
@@ -11,5 +11,5 @@ ReactDOM.render(
       <Routing />
     </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
